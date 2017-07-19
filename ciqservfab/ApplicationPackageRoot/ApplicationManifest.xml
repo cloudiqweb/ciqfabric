@@ -13,6 +13,12 @@
   <ServiceManifestImport>
     <ServiceManifestRef ServiceManifestName="ciqservfabPkg" ServiceManifestVersion="1.0.0" />
     <ConfigOverrides />
+    <Policies>
+      <ContainerHostPolicies CodePackageRef="Code">
+        <RepositoryCredentials AccountName="cloudiqreg" Password="/+Y===/4=bVt//vd/XM/+xH=VGl+myTV" PasswordEncrypted="false"/>
+        <PortBinding ContainerPort="80" EndpointRef="ciqservfabTypeEndpoint"/>
+      </ContainerHostPolicies>
+    </Policies>
   </ServiceManifestImport>
   <DefaultServices>
     <!-- The section below creates instances of service types, when an instance of this 
