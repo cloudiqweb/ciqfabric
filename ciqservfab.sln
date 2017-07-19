@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "ciqservfab", "ciqservfab\ciqservfab.sfproj", "{D913A785-ED9F-4FBE-A894-230327D8C900}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D913A785-ED9F-4FBE-A894-230327D8C900}.Debug|x64.ActiveCfg = Debug|x64
+		{D913A785-ED9F-4FBE-A894-230327D8C900}.Debug|x64.Build.0 = Debug|x64
+		{D913A785-ED9F-4FBE-A894-230327D8C900}.Debug|x64.Deploy.0 = Debug|x64
+		{D913A785-ED9F-4FBE-A894-230327D8C900}.Release|x64.ActiveCfg = Release|x64
+		{D913A785-ED9F-4FBE-A894-230327D8C900}.Release|x64.Build.0 = Release|x64
+		{D913A785-ED9F-4FBE-A894-230327D8C900}.Release|x64.Deploy.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
